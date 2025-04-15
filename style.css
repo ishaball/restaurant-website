@@ -1,0 +1,120 @@
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
+section {
+    margin: 20px;
+    padding: 10px;
+    height: 100vh; /* Makes each section fit the viewport */
+}
+body{
+    background-image: url(pexels-pixabay-262978.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the image fixed when scrolling */
+    background-repeat: no-repeat;
+    color: white; 
+
+}
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ef052c04;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgba(1, 0, 2, 0.963);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 100px 20px; /* Ensures sections are visible under the fixed menu */
+    text-align: center;
+}
+/* Container for each row, using Flexbox */
+.form-row {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
+    margin-bottom: 15px;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    flex: auto;
+    font-size: medium;
+    
+  }
+  .form-row input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .menu container{
+    display: flex;
+    gap: 20px;
+  }
+  li{
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    text-align: left;
+  }
+  h3{
+    text-align: left;
+  }
+  .menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.menu-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 150px;
+    color: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-item:hover {
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+h4 {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+  
+  

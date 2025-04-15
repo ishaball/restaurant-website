@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delicious bites</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to isha's restaurant</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#book a table">Book a table</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+      <h1> Welcome to our restaurant</h1>
+        <h2>Fresh & Delicious Food</h2>
+        <p>Experience the taste of authenticity and quality.</p>
+    </section>
+
+    <section id="menu">
+        <h3>Our Menu</h3>
+        <ul>
+            <div class="menu-container">
+                <div class="menu-item">
+                    <h4>Pizza</h4>
+                    <p>₹100</p>
+                </div>
+                <div class="menu-item">
+                    <h4>Noodles</h4>
+                    <p>₹80</p>
+                </div>
+                <div class="menu-item">
+                    <h4>Momo</h4>
+                    <p>₹70</p>
+                </div>
+                <div class="menu-item">
+                    <h4>Pasta</h4>
+                    <p>₹150</p>
+                </div>
+                <div class="menu-item">
+                    <h4>Burgers</h4>
+                    <p>₹50</p>
+                </div>
+                <div class="menu-item">
+                    <h4>Desserts (4 pcs)</h4>
+                    <p>₹100</p>
+                </div>
+                <div class="menu-item">
+                    <h4>Salad</h4>
+                    <p>₹60</p>
+                </div>
+            </div>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+        Quas consequatur cumque sequi minima iste aliquid qui <br>
+        vitae rerum ratione ea tempora quaerat facilis obcaecati voluptatem quibusdam,<br> 
+        eligendi nihil libero quis.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@restaurantname.com</p>
+        <p>Phone: 123-456-7890</p>
+        <p>Address: 123 Food Street, Flavor Town</p>
+    </section>
+    <section id="book a table">
+        <h2>Book a Table</h2>
+        <p>Reserve your table now by filling out the form below.</p>
+        <form id="bookingForm">
+          <div class="form-row">             
+             <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required placeholder="Your Name">
+          </div>
+          
+            <div class="form-row">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required placeholder="Your Email">
+            </div>
+        <div class="form-row">
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="phone" required placeholder="Your Phone Number">
+            </div>
+            <div class="form-row">  
+              <label for="date">Date:</label>
+              <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-row">
+              <label for="time">Time:</label>
+              <input type="time" id="time" name="time" required>
+            </div>
+            <div class="form-row">
+              <label for="guests">Number of Guests:</label>
+              <input type="number" id="guests" name="guests" required placeholder="Number of Guests">
+            </div>
+          <button type="submit">Reserve Table</button>
+        </form>
+      </section>
+
+    <footer>
+        <p>&copy; 2025 [Restaurant Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
